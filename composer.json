@@ -1,0 +1,22 @@
+{
+    "name": "epsoftware/lumen-form-request",
+    "description": "Abstract class to create form request for lumen",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tom",
+        "email": "everton.projetos@gmail.com"
+    }],
+    "require": {
+        "illuminate/contracts": "5.*",
+        "illuminate/http": "5.*",
+        "illuminate/validation": "5.*",
+        "illuminate/support": "5.*",
+        "symfony/http-kernel": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epsoftware\\Lumen\\Form\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
